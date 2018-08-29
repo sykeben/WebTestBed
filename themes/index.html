@@ -26,6 +26,11 @@
                 padding: 6px 12px;
             }
             
+            #back {
+                background-color: #FEFEFE;
+                padding: 6px 12px;
+            }
+            
             a {
                 color: darkcyan;
                 text-decoration: none;
@@ -33,6 +38,19 @@
             
             a:hover {
                 text-decoration: underline;
+            }
+            
+            a.back {
+                background-color: #EEEEEE;
+                border-style: solid;
+                border-width: thin;
+                border-color: #DEDEDE;
+                padding: 1px 3px;
+            }
+            
+            a.back:hover {
+                background-color: #EFEFEF;
+                border-color: #EEEEEE;
             }
             
         </style>
@@ -52,7 +70,11 @@
         
         <div id="pages">
             <u>T H E M E S</u><br><br>
-            <b>*</b> NOTHING HERE YET
+            <b>&gt;</b> <a href="test">Test Theme</a>
+        </div>
+        
+        <div id="back">
+            <a href=".." class="back">&lt;-- Back</a>
         </div>
         
     </body>
