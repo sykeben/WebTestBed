@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>WebTestBed</title>
+        <title>WebTestBed | Material</title>
         <style>
             
             body {
@@ -26,6 +26,11 @@
                 padding: 6px 12px;
             }
             
+            #back {
+                background-color: #FEFEFE;
+                padding: 6px 12px;
+            }
+            
             a {
                 color: darkcyan;
                 text-decoration: none;
@@ -35,6 +40,21 @@
                 text-decoration: underline;
             }
             
+            a.back {
+                text-decoration: none;
+                background-color: #EEEEEE;
+                border-style: solid;
+                border-width: thin;
+                border-color: #DEDEDE;
+                padding: 1px 3px;
+            }
+            
+            a.back:hover {
+                text-decoration: none;
+                background-color: #EFEFEF;
+                border-color: #EEEEEE;
+            }
+            
         </style>
     </head>
     <body>
@@ -42,20 +62,21 @@
         <div id="titlebar">
             <table>
                 <tr><td style="font-size: 24px;">Web Test Bed</td></tr>
-                <tr><td style="font-size: 18px;">This is a web development test bed.</td></tr>
+                <tr><td style="font-size: 18px;">Material</td></tr>
             </table>
         </div>
         
         <div id="intro">
-            This is where I <small>(will)</small> test web development techniques, tricks, and tools.<br>
-            So far I am decent at this whole web development thing, but will get better.
+            This is where all Material-related testing will go.
         </div>
         
         <div id="pages">
-            <u>P A G E S</u><br><br>
-            <b>&gt;</b> <a href="https://sykeben.github.io/">My GitHub Pages Site</a><br>
-            <b>&gt;</b> <a href="themes">CSS Themes</a><br>
-            <b>&gt;</b> <a href="material">Material</a>
+            <u>T E S T S</u><br><br>
+            <b>&gt;</b> <a href="icons">Icons</a>
+        </div>
+        
+        <div id="back">
+            <a href=".." class="back">&lt;-- Back</a>
         </div>
         
     </body>
