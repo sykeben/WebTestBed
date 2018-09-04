@@ -1,3 +1,54 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("fonts/segoeui.ttf");
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url("fonts/segoeuib.ttf");
+}
+
 body {
+    background-color: aliceblue;
+    color: #333333;
     padding: 12px;
+    font-family: "Segoe UI";
+}
+
+#back {
+    padding: 3px 6px;
+}
+
+#titlebar {
+    font-family: "Segoe UI Bold";
+    padding: 6px 12px;
+    font-size: 24px;
+    background-color: lightblue;
+    border-color: skyblue;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 6px;
+}
+
+#intro {
+    padding: 1px 12px;
+    font-size: 20px;
+    background-color: lightcyan;
+    border-radius: 1px;
+}
+
+#content {
+    background-color: #EEEEFF;
+    border-radius: 1px;
+    padding: 1px 6px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cadetblue;
+    text-decoration: underline;
 }
